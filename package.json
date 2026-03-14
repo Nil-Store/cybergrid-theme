@@ -1,0 +1,29 @@
+{
+  "name": "@nil-store/cybergrid-theme",
+  "version": "0.1.0",
+  "description": "Reusable cyber-grid visual theme: tokens, background system, panel utilities, and Tailwind preset.",
+  "type": "module",
+  "files": [
+    "theme.css",
+    "tailwind-preset.js",
+    "README.md"
+  ],
+  "exports": {
+    "./theme.css": "./theme.css",
+    "./tailwind-preset": "./tailwind-preset.js"
+  },
+  "keywords": [
+    "theme",
+    "design-system",
+    "tailwind",
+    "cyber-grid",
+    "ui"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "pack:check": "npm pack --dry-run"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.0 || ^4.0.0"
+  }
+}
