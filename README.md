@@ -38,6 +38,14 @@ export default {
 };
 ```
 
+## React exports
+
+```js
+import { LivingGrid } from "@nil-store/cybergrid-theme/react/living-grid";
+```
+
+`LivingGrid` is the canvas-based animated conduit effect used as a fixed background layer behind app content.
+
 ## Utility classes
 
 The package provides both generic `cg-*` classes and compatibility aliases used in existing apps.
