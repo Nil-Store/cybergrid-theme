@@ -12,7 +12,10 @@
   "exports": {
     "./theme.css": "./theme.css",
     "./tailwind-preset": "./tailwind-preset.js",
-    "./react/living-grid": "./react/living-grid.js"
+    "./react/living-grid": {
+      "types": "./react/living-grid.d.ts",
+      "default": "./react/living-grid.js"
+    }
   },
   "keywords": [
     "theme",
